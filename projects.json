@@ -1,0 +1,89 @@
+{
+  "_comment": "Single source of truth for portfolio projects. To swap a project in/out, edit this file only — no HTML changes. Set \"visible\": false to hide without deleting. Set \"featured\": true to sort it to the front. Order within the same featured/visible group follows array order. Tag colors: blue | purple | green (defaults to neutral).",
+  "projects": [
+    {
+      "id": "ecommerce-rag-chatbot",
+      "title": "E-Commerce Conversational Chatbot",
+      "role": "RAG",
+      "featured": true,
+      "visible": true,
+      "tags": [
+        { "label": "LangChain", "color": "blue" },
+        { "label": "Vector Search", "color": "purple" },
+        { "label": "RAG", "color": "green" }
+      ],
+      "description": "Retrieval-augmented chatbot for e-commerce — natural-language product discovery, order queries, and personalized recommendations.",
+      "links": []
+    },
+    {
+      "id": "recommendation-engine",
+      "title": "Product Recommendation Engine",
+      "role": "ML",
+      "featured": false,
+      "visible": true,
+      "tags": [
+        { "label": "Collaborative Filtering", "color": "blue" },
+        { "label": "Content-Based", "color": "purple" },
+        { "label": "Python", "color": "green" }
+      ],
+      "description": "Hybrid recommendation system delivering personalised product suggestions to lift user engagement and conversion.",
+      "links": []
+    },
+    {
+      "id": "lms-avatar-chatbot",
+      "title": "AI Avatar Chatbot — LMS",
+      "role": "LLM",
+      "featured": false,
+      "visible": true,
+      "tags": [
+        { "label": "LLM", "color": "blue" },
+        { "label": "Conversational AI", "color": "purple" },
+        { "label": "EdTech", "color": "green" }
+      ],
+      "description": "AI avatar tutor embedded in a learning platform — interactive, context-aware tutoring and course navigation for students.",
+      "links": []
+    },
+    {
+      "id": "llm-document-processing",
+      "title": "LLM Document Processing",
+      "role": "RAG",
+      "featured": false,
+      "visible": true,
+      "tags": [
+        { "label": "LangChain", "color": "blue" },
+        { "label": "Vector Search", "color": "purple" },
+        { "label": "Enterprise", "color": "green" }
+      ],
+      "description": "Enterprise RAG pipeline for intelligent document retrieval — turning large document stores into instant, grounded answers.",
+      "links": []
+    },
+    {
+      "id": "ai-agent-assistant",
+      "title": "AI Agent Virtual Assistant",
+      "role": "Agents",
+      "featured": false,
+      "visible": true,
+      "tags": [
+        { "label": "Autonomous Agents", "color": "blue" },
+        { "label": "Tool Use", "color": "purple" },
+        { "label": "Automation", "color": "green" }
+      ],
+      "description": "Autonomous agent for multi-step task execution, tool use, and intelligent decision-making across business workflows.",
+      "links": []
+    },
+    {
+      "id": "sentiment-analysis-betting",
+      "title": "Customer Sentiment Analysis",
+      "role": "NLP",
+      "featured": false,
+      "visible": true,
+      "tags": [
+        { "label": "NLP", "color": "blue" },
+        { "label": "Classification", "color": "purple" },
+        { "label": "Retention", "color": "green" }
+      ],
+      "description": "NLP sentiment pipeline classifying customer feedback in the betting industry to surface actionable insights and improve retention.",
+      "links": []
+    }
+  ]
+}
